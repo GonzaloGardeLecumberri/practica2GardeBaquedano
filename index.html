@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css" >
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" >
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css" >
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css" >
+	<title>Practica 2</title>
+</head>
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-4" height="200" width="200">
+				<figure class="figure" >
+					<img src="Imagenes/kiwi.jpg" height="200" width="200" class="figure-img img-responsive producto" data-imagen="kiwi">
+					<figcaption class="figure-caption">Esto es un Kiwi</figcaption>
+				</figure>
+			</div>
+			<div class="col-4" height="200" width="200">
+				<figure class="figure" >
+					<img src="Imagenes/nu.jpeg" height="200" width="200" class="figure-img img-responsive producto" data-imagen="toro">
+					<figcaption class="figure-caption">Esto es un toro famélico</figcaption>
+				</figure>
+			</div>
+			<div class="col-4" height="200" width="200">
+				<figure class="figure" >
+					<img src="Imagenes/lemur.jpeg"  class="figure-img img-responsive producto" data-imagen="mono">
+					<figcaption class="figure-caption">Esto es un tipo de mono</figcaption>
+				</figure>
+			</div>
+		</div>
+
+
+		<div id="botonera" class="col-12 card" style="display:none">
+			<div class="btn-group col-12 card-header" role="group">
+				<a class="btn btn-secondary" href="" role="button" id="imagenes">Imagenes</a>
+				<a class="btn btn-secondary" href="" role="button" id="descripcion">Descripcion</a>
+				<a class="btn btn-secondary" href="" role="button" id="precio">Precio</a>
+			</div>
+			<div id="objetivo1" class="col-12 card-block">
+			</div>
+		</div>
+		<div>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Producto</th>
+						<th>Precio</th>
+						<th>Cantidad</th>
+						<th>Total</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">Ñu</th>
+						<td id="precioÑu">15</td>
+						<td id="cantidadÑu">0</td>
+						<td id="totalÑu">0</td>
+					</tr>
+					<tr>
+						<th scope="row">Lemur</th>
+						<td id="precioLemur">10</td>
+						<td id="cantidadLemur">0</td>
+						<td id="totalLemur">0</td>
+					</tr>
+					<tr>
+						<th scope="row">Kiwi</th>
+						<td id="precioKiwi">5</td>
+						<td id="cantidadKiwi">0</td>
+						<td id="totalKiwi">0</td>
+					</tr>
+				</tbody>
+			</table>
+			<div id="precioDelCarro">
+				<p>El precio del carrito para los objetos acumulados es: </p>
+			</div>
+		</div>
+	</div>
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/funcionesJquery.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
